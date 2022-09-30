@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Touchscreen",
+            "id": "84f3b312-748a-4073-9a5e-f7f1ef4e1bd4",
+            "actions": [
+                {
+                    "name": "TwoFingers",
+                    "type": "Button",
+                    "id": "8fcfb49e-bdaa-43d1-855a-bf39a3907390",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd33e371-39cb-4ef0-b7a7-5442d852ae17",
+                    "path": "<Touchscreen>/touch1/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TwoFingers",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
